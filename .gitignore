@@ -1,20 +1,18 @@
-# --- Python ---
+# Python
 __pycache__/
 *.pyc
 .venv/
 venv/
 env/
+.pytest_cache/
 .DS_Store
 
-# --- Private / internal: NEVER publish to the public repo ---
-*_handoff.md
-_private_reference/
-
-# --- Large / third-party media (ASIO's sample clip, test videos) ---
+# Input clips and rendered demo (large media, shared via the release)
 input/
 *.avi
-
-# Keep the final demo out of git by default. Share it as a release asset.
 demo/*.mp4
-.pytest_cache/
+
+# Local working notes, not part of the deliverable
 METHODOLOGY.md
+*_handoff.md
+_private_reference/
