@@ -139,7 +139,8 @@ cluster, settlement structures, open ground, an alternate corner,
 near-featureless desert) plus a synthetic exit-and-return harness, all with
 identical code and constants, every run ending in an honest state. Also
 tested cold on held-out clips (indoor, a different camera). Generality here
-means the tracker locks any clear target and always ends honestly. Recovery
+means the tracker locks any clear target and ends in an honest state on
+every target tested. Recovery
 identity on repeated look-alike structures is a separate, measured limit
 (see below). Per-target timelines:
 [`experiments/remediation/results.md`](experiments/remediation/results.md).

@@ -20,8 +20,8 @@ Answers to the six assignment questions.
    (ORB + RANSAC, only while LOST). Built a synthetic forward-then-reversed
    clip to test recovery, since the target never returns in the original.
 6. Hardened for real time: per-state profiling, single-thread cold-CPU
-   proxy, and a re-detection cadence that holds 30 fps even on a CPU 3x
-   slower than mine.
+   proxy, and a re-detection cadence chosen so the worst state projects
+   above 30 fps even on a CPU 3x slower than mine.
 7. Tested cold on held-out clips (indoor, different camera), including a
    real exit-and-return at 1080p. Logged the failures.
 8. Input validation, unit tests, cleanup.
