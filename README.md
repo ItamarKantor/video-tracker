@@ -2,8 +2,9 @@
 
 Real-time single-object video tracker in Python. Give it a video and one
 pixel on the first frame. It tracks that object, detects when the object is
-lost, and re-acquires it when it re-enters the frame. CPU only, over 30 fps
-at 1080p.
+lost, and re-acquires it when it re-enters the frame. CPU only, no GPU. On
+an Apple M2 it stays well above 30 fps at 1080p, with a conservative
+slower-CPU projection in the Performance section below.
 
 ## Demo
 
