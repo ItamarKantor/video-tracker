@@ -7,8 +7,9 @@ the frame**, all on CPU at well over 30 fps on full-HD footage.
 
 ## Demo
 
-The demo video (`tracking_demo_delivery.mp4`, attached to the GitHub
-release, since large media is kept out of git) is rendered by the pipeline
+**Watch the demo:** [tracking_demo_delivery.mp4](https://github.com/ItamarKantor/video-tracker/releases/download/v1.0/tracking_demo_delivery.mp4)
+(16 MB, attached to the [v1.0 release](https://github.com/ItamarKantor/video-tracker/releases/tag/v1.0),
+since large media is kept out of git). It is rendered by the pipeline
 itself on the **provided sample clip, unmodified** (init pixel
 `i=750, j=1259`). Exact timeline, so you can scrub to each event:
 
